@@ -22,8 +22,8 @@ public class SumOfStrings {
 	}	
 	
 	public static void main (String args[]) {
-		String num1 = "234";
-		String num2 = "386";
+		String num1 = "141";
+		String num2 = "999";
 		
 		addString(num1,num2);
 		System.out.println(addString(num1, num2));
