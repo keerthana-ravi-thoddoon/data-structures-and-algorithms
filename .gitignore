@@ -18,6 +18,7 @@ pids
 *.swp
 *.swo
 
+/.metadata/
 
 
 # IDEs and editors
