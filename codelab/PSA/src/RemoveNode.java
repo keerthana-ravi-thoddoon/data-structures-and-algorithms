@@ -12,7 +12,7 @@ class RemoveNode {
   
     void deleteNode(int key) 
     { 
-  
+   
         Node first = head; 
   
         Node second = head; 
