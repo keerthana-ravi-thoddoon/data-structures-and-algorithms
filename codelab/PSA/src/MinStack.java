@@ -1,11 +1,12 @@
+import java.util.Stack;
 
 public class MinStack {
-	class MinStack {
+	class Solution {
 
 	    /** initialize your data structure here. */
 	    Stack<Integer> s1;
 	    Stack<Integer> s2;
-	    public MinStack() {
+	    public Solution() {
 	       s1 = new Stack<>();
 	       s2 = new Stack<>();
 	    }
