@@ -1,3 +1,4 @@
+import java.util.Stack;
 
 public class AsteroidCollision {
 	class Solution {
@@ -16,7 +17,7 @@ public class AsteroidCollision {
 	                        break;
 	                    }
 	                    else if 
-	                        (peek == asteroids[i]){
+	                        (peek == -asteroids[i]){
 	                        stack.pop();
 	                        break;
 	                    }
@@ -45,5 +46,6 @@ public class AsteroidCollision {
 	        
 	    }
 
+	
 
 }
